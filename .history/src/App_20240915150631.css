@@ -1,0 +1,28 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color:aliceblue;
+  background-color:black
+}
+#name{
+  background: linear-gradient(90deg, #3622b6 0%, #f10551 46%, #f1f102 100%);  /* The gradient color */
+  -webkit-background-clip: text;       /* Clip the background to the text */
+  background-clip: text;              /* For non-WebKit browsers */
+  color: transparent; 
+
+ 
+
+}
+#image{
+  width: 150px;
+  margin-left: auto !important; /* This pushes the image to the right */
+  border-radius: 50%;
+  margin-top: 20px;
+
+}
