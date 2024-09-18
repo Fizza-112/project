@@ -74,7 +74,7 @@ border-radius:20px;
 
 }
 a{
-  color:whitesmoke;
+  color:#ffc000;
   margin: 6px;
   
 }
@@ -130,7 +130,6 @@ background-image: linear-gradient(180deg, #001886 10%, #05060f 50%, #001886  100
 /* 
   background-color: #001886;
   background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */
-
   color:whitesmoke;
   margin: 20px, 0px 0px, 0px;
   padding:20px;

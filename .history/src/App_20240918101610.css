@@ -5,12 +5,8 @@ body{
   /* background-color:bisque;
   background-image: linear-gradient(19deg, bisque 0%, #989fff 100%);
    */
-   /* background-color:bisque;
-background-image: linear-gradient(62deg, bisque 0%, #945cfd 100%); */
-/* background-color: #001886;
-background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%); */
-background-color:black;
-
+   background-color:bisque;
+background-image: linear-gradient(62deg, bisque 0%, #945cfd 100%);
 
   
 }
@@ -20,14 +16,17 @@ header{
   justify-content: center;
   width: 100%;
   color:aliceblue;
-  background-color: #001886;
-background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%); 
+  background-color:black
 }
 #name{
   
-  /* color:#880808;   */
-  color:#ffc000;
-  
+  background: linear-gradient(#eeeeee, #333);  /* The gradient color */
+  -webkit-background-clip: text;       /* Clip the background to the text */
+  background-clip: text;              /* For non-WebKit browsers */
+  color: transparent; 
+
+ 
+
 }
 #image{
   width: 150px;
@@ -40,12 +39,8 @@ background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%)
   display: flex;
   align-items:center;
   justify-content: space-between;
-   padding: 20px;
-   background-color: #001886;
-   background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%); 
-  /* background-image: linear-gradient(132deg, #524f41 0%, #1a2323 100%);  */
-  
-  border: 2px solid #ffc000;
+  padding: 20px;background-color: #524f41;
+  background-image: linear-gradient(132deg, #524f41 0%, #1a2323 100%);
 }
 
 .div{
@@ -106,7 +101,7 @@ table{
 }
 #Hobbies{
   margin-left: 20px;
-  color:whitesmoke;
+
 }
 #life-ambitions{
   margin-left: 20px;
@@ -114,23 +109,10 @@ table{
 }
 #efforts-for-country{
   margin-left: 20px;
-  color:whitesmoke;
-}
-.nam{
-  color:#ffc000;
-}
-.con{
- color:#ffc000;
-
 }
 #footer{
   text-align: center;
-  background-color:  #001886;
-background-image: linear-gradient(180deg, #001886 10%, #05060f 50%, #001886  100%);
-/* 
-  background-color: #001886;
-  background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */
-
+  background-color: black;
   color:whitesmoke;
   margin: 20px, 0px 0px, 0px;
   padding:20px;

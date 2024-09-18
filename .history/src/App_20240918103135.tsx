@@ -1,4 +1,5 @@
 
+import React from 'react'
 import "./App.css"
 import profileimg from "./assets/WhatsApp Image 2024-09-06 at 9.05.18 AM.jpeg"
 
@@ -12,7 +13,7 @@ const App = () => {
   return (
     <>
     <header>
-    <div> <h1 id='name'><b>Fizza Tahir</b></h1>
+    <div> <h1 id='name'>Fizza Tahir</h1>
     <p id="intro">Studing in UOG, Student of CS(computer science),
     like to sleep,watch movies. currently living in Gujrat. Kind of a Fresher....</p>
     </div>
@@ -152,7 +153,7 @@ const App = () => {
 
 <div id="Contact-Me">
   <footer id='footer'>
-<h2 className='con'>Contact Me: </h2>
+<h2 class>Contact Me: </h2>
 <h4> Email: 22024119-112@uog.edu.pk</h4>
 <div id="logo">
   <a href="https://www.instagram.com/" target='_blank'><img src={instaimg} alt='icon' className='icons'></img></a>

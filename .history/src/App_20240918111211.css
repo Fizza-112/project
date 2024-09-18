@@ -44,8 +44,7 @@ background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%)
    background-color: #001886;
    background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%); 
   /* background-image: linear-gradient(132deg, #524f41 0%, #1a2323 100%);  */
-  
-  border: 2px solid #ffc000;
+  border: 2px solid whitesmoke;
 }
 
 .div{
@@ -126,11 +125,8 @@ table{
 #footer{
   text-align: center;
   background-color:  #001886;
-background-image: linear-gradient(180deg, #001886 10%, #05060f 50%, #001886  100%);
-/* 
-  background-color: #001886;
-  background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */
-
+background-image: linear-gradient(180deg, #001886 0%, #05060f 50%, #001886  100%);
+ #001886;
   color:whitesmoke;
   margin: 20px, 0px 0px, 0px;
   padding:20px;

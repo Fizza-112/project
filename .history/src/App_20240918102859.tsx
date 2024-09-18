@@ -1,4 +1,5 @@
 
+import React from 'react'
 import "./App.css"
 import profileimg from "./assets/WhatsApp Image 2024-09-06 at 9.05.18 AM.jpeg"
 
@@ -12,7 +13,7 @@ const App = () => {
   return (
     <>
     <header>
-    <div> <h1 id='name'><b>Fizza Tahir</b></h1>
+    <div> <h1 id='name'>Fizza Tahir</h1>
     <p id="intro">Studing in UOG, Student of CS(computer science),
     like to sleep,watch movies. currently living in Gujrat. Kind of a Fresher....</p>
     </div>
@@ -42,7 +43,7 @@ const App = () => {
 
   <div id="EducationalHistory">
 
-    <h2 className='nam'>Educational History</h2>
+    <h2 className=''>Educational History</h2>
         <table>
             <thead>
                 <tr>
@@ -77,7 +78,7 @@ const App = () => {
   </div>
 
   <div id="ProfessionalSkills">
-<h2 className='nam'>Professional Skills</h2>
+<h2>Professional Skills</h2>
 <ol>
 <li>Html</li>
 <li>Jawa Script</li>
@@ -87,7 +88,7 @@ const App = () => {
    </div>
 
   <div id="ProfessionalProjects">
-<h2 className='nam'>Professional Projects</h2>
+<h2>Professional Projects</h2>
 <ol>
 <li>Personal Portfolio in (css, Html)</li>
 <li>Personal Portfolio in (React,External CSS)</li>
@@ -97,7 +98,7 @@ const App = () => {
    </div>
 
   <div id="Hobbies">
-<h2 className='nam'>Hobbies</h2>
+<h2>Hobbies</h2>
 <ul>
 <li>Calligraphy</li>
 <li>Sleeping</li>
@@ -107,7 +108,7 @@ const App = () => {
    </div>
 
    <div id="life-ambitions">
-    <h2 className='nam'>Life Ambitions</h2>
+    <h2>Life Ambitions</h2>
     <ul>
       <li><b>Achieved</b></li>
       <ul>
@@ -127,7 +128,7 @@ const App = () => {
     </div>
 
     <div id="efforts-for-country">
-    <h2 className='nam'>Efforts for Country</h2>
+    <h2>Efforts for Country</h2>
     <ul>
       <li><b>Succeeded</b></li>
       <ul>
@@ -152,7 +153,7 @@ const App = () => {
 
 <div id="Contact-Me">
   <footer id='footer'>
-<h2 className='con'>Contact Me: </h2>
+<h2>Contact Me: </h2>
 <h4> Email: 22024119-112@uog.edu.pk</h4>
 <div id="logo">
   <a href="https://www.instagram.com/" target='_blank'><img src={instaimg} alt='icon' className='icons'></img></a>

@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
     <header>
-    <div> <h1 id='name'><b>Fizza Tahir</b></h1>
+    <div> <h1 id='name'><b></b>Fizza Tahir<</h1>
     <p id="intro">Studing in UOG, Student of CS(computer science),
     like to sleep,watch movies. currently living in Gujrat. Kind of a Fresher....</p>
     </div>
