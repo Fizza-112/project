@@ -84,12 +84,10 @@ border-radius:20px;
 a{
   color:whitesmoke;
   margin: 6px;
-  font-weight: 600;
+  
 }
-
-
 table{
-  border: 1px solid #ffc000;       /*table border*/
+  border: 1px solid ;       /*table border*/
   justify-content:center;
   align-items:center;
   text-align: center;

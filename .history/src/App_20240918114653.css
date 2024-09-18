@@ -21,14 +21,13 @@ header{
   width: 100%;
   color:aliceblue;
   background-color: #001886;
-  background-image: linear-gradient(180deg, #05060f 10%,#001886   50%, #05060f 100%);
-/* background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */
+background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%); 
 }
 #name{
   /* 
-  /* color:#880808;  
+  /* color:#880808;  #efa400
   color:#ffc000; */
-  background: -webkit-linear-gradient(62deg, #fde403 0%, #efa400 100%);
+  background: -webkit-linear-gradient(62deg, #efa400 0%, #fde403 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
@@ -46,8 +45,7 @@ header{
   justify-content: space-between;
    padding: 20px;
    background-color:  #001886;
-   background-image: linear-gradient(180deg, #05060f 10%,#001886   50%, #05060f 100%);
-   /* background-image: linear-gradient(180deg, #001886 10%, #05060f 50%, #001886  100%); */
+   background-image: linear-gradient(180deg, #001886 10%, #05060f 50%, #001886  100%);
    /* background-color: #001886;
    background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */
   
@@ -84,12 +82,10 @@ border-radius:20px;
 a{
   color:whitesmoke;
   margin: 6px;
-  font-weight: 600;
+  
 }
-
-
 table{
-  border: 1px solid #ffc000;       /*table border*/
+  border: 1px solid whitesmoke;       /*table border*/
   justify-content:center;
   align-items:center;
   text-align: center;
@@ -136,7 +132,7 @@ table{
 #footer{
   text-align: center;
   background-color:  #001886;
-background-image: linear-gradient(180deg, #05060f 10%,#001886   50%, #05060f 100%);
+background-image: linear-gradient(180deg, #001886 10%, #05060f 50%, #001886  100%);
 /* 
   background-color: #001886;
   background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */
@@ -144,7 +140,7 @@ background-image: linear-gradient(180deg, #05060f 10%,#001886   50%, #05060f 100
   color:whitesmoke;
   margin: 20px, 0px 0px, 0px;
   padding:20px;
- 
+  
   height: 150px;
  
 }

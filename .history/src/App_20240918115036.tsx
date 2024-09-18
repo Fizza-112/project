@@ -44,7 +44,7 @@ const App = () => {
 
     <h2 className='nam'>Educational History</h2>
         <table>
-            <thead >
+            <thead>
                 <tr>
                     <th>Sr. No.</th>
                     <th>Degree Title</th>
@@ -136,7 +136,7 @@ const App = () => {
         <li>Participated in voter education campaigns</li>
         <li>Donated to local charities for disaster relief</li>
       </ul>
-      <li><b className='nam'>Struggling</b></li>
+      <li><b>Struggling</b></li>
       <ul>
         <li>Advocating for policy change in environmental laws</li>
         <li>Raising awareness on public health initiatives</li>

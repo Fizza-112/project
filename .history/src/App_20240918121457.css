@@ -84,9 +84,10 @@ border-radius:20px;
 a{
   color:whitesmoke;
   margin: 6px;
-  font-weight: 600;
+  
+}u{
+  color:wh
 }
-
 
 table{
   border: 1px solid #ffc000;       /*table border*/

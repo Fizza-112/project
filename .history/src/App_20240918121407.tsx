@@ -23,7 +23,7 @@ const App = () => {
     
     <nav id="nav">
       <div>
-  <a href='#EducationalHistory'>Educational History </a>
+ <u></u> <a href='#EducationalHistory'>Educational History </a>
   <a href='#ProfessionalSkills'>Professional Skills</a>
   <a href="#ProfessionalProjects">Professional Projects</a>
   <a href="#Hobbies">Hobbies</a>

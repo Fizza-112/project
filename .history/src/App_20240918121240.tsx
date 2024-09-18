@@ -44,7 +44,7 @@ const App = () => {
 
     <h2 className='nam'>Educational History</h2>
         <table>
-            <thead >
+            <thead cla>
                 <tr>
                     <th>Sr. No.</th>
                     <th>Degree Title</th>
