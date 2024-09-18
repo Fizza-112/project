@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3ad311e3-8c35-4751-a8e4-2c024ad2e35f/deploy-status)](https://app.netlify.com/sites/fizzamagic-112/deploys)
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
