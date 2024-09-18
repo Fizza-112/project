@@ -64,14 +64,13 @@ border-radius:20px;
 }
 #main-contant{
   width: 50%;
-  border: 1px solid #ffc000;      /*center contant border*/
+  border: 1px solid ;      /*center contant border*/
   margin: 20px;
 border-radius:20px;
 }
 #end{
   width: 25%;
-  border: 1px solid #ffc000;     /*right contant border*/
-  
+  border: 1px solid whitesmoke;     /*right contant border*/
   margin: 20px;
   border-radius:20px;
 
