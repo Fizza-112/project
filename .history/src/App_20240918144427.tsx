@@ -109,7 +109,7 @@ const App = () => {
    <div id="life-ambitions">
     <h2 className='nam'>Life Ambitions</h2>
     <ul>
-      <li className='nam'><b >Achieved</b></li>
+      <li ><b >Achieved</b></li>
       <ul>
         <li>Graduated from college</li>
         <li>Done 4 Semester </li>

@@ -109,14 +109,14 @@ const App = () => {
    <div id="life-ambitions">
     <h2 className='nam'>Life Ambitions</h2>
     <ul>
-      <li className='nam'><b >Achieved</b></li>
+      <li><b className='nam'>Achieved</b></li>
       <ul>
         <li>Graduated from college</li>
         <li>Done 4 Semester </li>
         <li>Learned a new language</li>
         <li>Made a website </li>
       </ul>
-      <li className='nam'><b >Struggling</b></li>
+      <li><b className='nam'>Struggling</b></li>
       <ul>
         <li>Achieving study-life balance</li>
         <li>Adjusting in uni life</li>
