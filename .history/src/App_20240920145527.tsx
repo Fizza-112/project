@@ -10,7 +10,7 @@ import marbelimg from "./components/marbel.webp"
 import profimg from "./assets/WhatsApp Image 2024-09-20 at 8.07.10 AM.jpeg"
 import sidedivimg from "./assets/sidediv.webp"
 import contantimg from "./assets/bg.jpg"
-import img from './components/f logo.png'
+
 const App = () => {
   return (
     <>
@@ -66,7 +66,7 @@ const App = () => {
   <div id="EducationalHistory">
 
     <h2 className='nam'>Educational History</h2>
-        <table border="1">
+        <table>
             <thead >
                 <tr>
                     <th>Sr. No.</th>

@@ -66,7 +66,7 @@ const App = () => {
   <div id="EducationalHistory">
 
     <h2 className='nam'>Educational History</h2>
-        <table border="1">
+        <table border="2">
             <thead >
                 <tr>
                     <th>Sr. No.</th>
