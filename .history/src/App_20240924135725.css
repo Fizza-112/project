@@ -1,0 +1,315 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  
+  /* background-color:bisque;
+  background-image: linear-gradient(19deg, bisque 0%, #989fff 100%);
+   */
+   /* background-color:bisque;
+background-image: linear-gradient(62deg, bisque 0%, #945cfd 100%); */
+/* background-color: #001886;
+background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%); */
+background-color:black;
+
+
+  
+}
+.header-container{
+ margin-left: 100px;
+  width: 800% !important;
+  height: 300px;
+ background-image: url(./assets/marbel.webp);
+ background-repeat: no -;
+}
+
+.base-image{
+  width: 200%;
+  height: 300px;
+ background-size:contain;
+ object-fit: cover;
+}
+.header-content {
+  position: absolute;
+  top: 20px; /* Adjust padding from top */
+  left: 20px; /* Adjust padding from left */
+  color: white;
+
+}
+@media (max-width: 768px){
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color:aliceblue;
+  background-color: #001886;
+  background-image: linear-gradient(180deg, #05060f 10%,#001886   50%, #05060f 100%);
+/* background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */
+max-width: 768px;
+padding-left: 10px;
+}
+}
+
+.header-text{
+  /* 
+  /* color:#880808;  
+  color:#ffc000; */
+ color: whitesmoke;
+ text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 150px;
+ 
+}
+.sub-text{
+  color:whitesmoke;
+  text-align: center;
+  font-weight: 700;
+  text-align: center !important;
+  font-size: 18px;
+  margin-left: 150px;
+}
+.contant{
+  text-align: center;
+  margin-left: 150px;
+}
+.span{
+ 
+  background: -webkit-linear-gradient(43deg, #a241d0 0%, #f90118 46%, yellow 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.side-image{
+  
+
+  width: 200px;
+  border-radius: 50%;   
+  margin-top: 20px;
+  border:2px solid rgb(253, 171, 19);
+  position: absolute;
+  top: 20px;              /*  match header's top */
+  right: 20px;             /* Position it on the right side */
+  object-fit: cover; /* Maintain aspect ratio */
+  display:block;
+ margin-right: 50px;
+  
+}
+.side-image:hover{
+  border: 3px solid yellow;
+}
+#nav{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+   padding: 20px;
+   background-color:  #001886;
+   background-image: linear-gradient(180deg, #05060f 10%, rgb(255, 174, 0)   50%, #05060f 100%);
+   /* background-image: linear-gradient(180deg, #001886 10%, #05060f 50%, #001886  100%); */
+   /* background-color: #001886;
+   background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */
+  border: 2px solid #ffc000;
+}
+@media (max-width: 768px){
+#nav{
+  max-width: 798px;
+  
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+   padding: 20px;
+   background-color:  #001886;
+   background-image: linear-gradient(180deg, #05060f 10%,#001886   50%, #05060f 100%);
+   /* background-image: linear-gradient(180deg, #001886 10%, #05060f 50%, #001886  100%); */
+   /* background-color: #001886;
+   background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */
+  border: 2px solid #ffc000;
+  
+}
+}
+.div{
+  display: flex;
+  
+  
+}
+table {  
+  border: 1px solid #ffc000 !important;
+ 
+}
+th{
+  
+  border: 1px solid #ffc000;
+}
+td{
+  
+  border: 1px solid #ffc000;
+}
+
+
+#left-div{
+width: 25%;
+border: 1px solid #ffc000 ;
+                    /*    left box contant border */
+margin: 20px;
+border-radius:20px;
+}
+
+.leftimgdiv{
+  width:100%;
+  height:100%;
+  border-radius:20px;
+}
+
+
+#main-contant{
+  width: 50%;
+  border: 1px solid #ffc000;      /*center contant border*/
+  margin: 20px;
+border-radius:20px;
+}
+
+#rightdiv{
+  width: 25%;
+  border: 1px solid #ffc000;     /*right contant border*/
+  margin: 20px;
+  border-radius:20px;
+
+}
+
+.rightimgdiv{
+  width:100%;
+  height:100%;
+  border-radius:20px;
+ 
+}
+
+
+
+a{
+color:#040708;
+  margin: 6px;
+  font-weight: 800;
+}
+
+
+table{
+  border: 1px solid #ffc000;       /*table border*/
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+ width: 90%;
+  margin: 20px;
+}
+@media (max-width: 768px){
+table{
+  max-width: 768px; 
+  border: 1px solid #ffc000;       /*table border*/
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+ width: 90%;
+  margin: 20px;
+}
+}
+#EducationalHistory{
+  color:whitesmoke;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+#ProfessionalSkills{
+  margin-left: 20px;
+  color:whitesmoke;
+}
+#ProfessionalProjects{
+  margin-left: 20px;
+  color:whitesmoke;
+}
+#Hobbies{
+  margin-left: 20px;
+  color:whitesmoke;
+}
+#life-ambitions{
+  margin-left: 20px;
+  color:whitesmoke;
+}
+#efforts-for-country{
+  margin-left: 20px;
+  color:whitesmoke;
+}
+@media (max-width:768px){
+#efforts-for-country{
+  max-width: 768px;
+  color:whitesmoke;
+}
+}
+.nam{
+  color:#ffc000;
+}
+
+.footer-container{
+  text-align: center;
+  /* background-color:  #001886;
+background-image: linear-gradient(180deg, #05060f 10%,#001886   50%, #05060f 100%);
+/*  */
+  /* background-color: #001886;
+  background-image: linear-gradient(43deg, #001886 0%, #05060f 46%, #001886  100%);  */ 
+  color:whitesmoke;
+  margin: 20px, 0px 0px, 0px;
+  padding: 20px,0px 20px,0px !important;
+  height: 100px;
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+
+
+}
+
+.footer-image{
+  width: 100%;
+  height: 250px;
+  margin-left: 0px;
+ 
+  display: block;
+}
+.footer-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* White text for good contrast */
+ 
+}
+
+.footer-heading{
+font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+ color:whitesmoke;
+ padding-top: 120px;
+}
+.footer-email{
+  color:whitesmoke;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.icons{
+  height: 40px;
+  width:40px;
+  align-items:center ;
+}
+
+.icons:hover{
+  background: linear-gradient( #040708, #f3db02,black);
+}
+
+
